@@ -52,6 +52,7 @@ A settlement is any contiguous collection of settlement features controlled by a
 
 #Settlement Feature
 A Settlement Feature is a hex that must be contiguous to another feature of the same settlement. There are 6 types of settlement features:
+
 1. Pier
 2. Town
 3. Mill
@@ -62,9 +63,9 @@ A Settlement Feature is a hex that must be contiguous to another feature of the 
 #Round
 There are 3 phases to every round: Passage of time, Action & Resolution.
 
--Passage of time: Ocean trade is advanced and event cards are drawn face-down.
--Action: Player simultaneously perform actions for a set amount of time.
--Resolution: Any conflicts from actions are resolved, deferred events are resolved and queued events are played in sequence.
+- Passage of time: Ocean trade is advanced and event cards are drawn face-down.
+- Action: Player simultaneously perform actions for a set amount of time.
+- Resolution: Any conflicts from actions are resolved, deferred events are resolved and queued events are played in sequence.
 
 #Round 0
 Round 0 is a special round where players establish their settlements. All players may stake a claim at the same time, but must adhere to the following rule: 
@@ -77,6 +78,7 @@ Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is p
 Passage of time is the phase where ocean trade is performed, crops are grown and event cards are queued up according to progress of the settlement.
 
 Ocean trade: This is performed in 3 parts.
+
 1. Move supplies from ocean to pier
 2. Optionally convert favor to suplies in ocean
 3. Convert goods to favor in king's court, according to demand per good.
