@@ -2,7 +2,7 @@
 
 ##Types
 
-- (Wheat)[Wheat]
+- [Wheat](Wheat)
 
 ##Design Guide
 
