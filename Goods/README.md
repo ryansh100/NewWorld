@@ -1,5 +1,9 @@
 #Goods
 
+##Types
+
+- (Wheat)[Wheat]
+
 ##Design Guide
 
 A goods card should have at least one side to the card but may have two. In example:
