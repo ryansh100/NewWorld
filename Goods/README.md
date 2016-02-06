@@ -6,6 +6,8 @@
 
 ##Design Guide
 
+Every good should have a corresponding [icon](../Icons) that adheres to design rules.
+
 A goods card should have at least one side to the card but may have two. In example:
 
 ```
