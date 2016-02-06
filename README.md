@@ -11,30 +11,30 @@ Be decisive, forge alliances, engage in intrigue, and weather adversity to grow 
 Provide a well paced building game with low impact events but difficult choices on timing.
 
 #Components
-8 - island boards
-8 - island cards
-120 - event cards
-60 - plantation hex tiles
-120 - goods cards
-6 - player sheets
-12 - piers, town, market, mill, workshop, fortess hex features
-24 - player flags
-18 - army tokens
-24 - favor/supply tokens
-6 - Ready coins
+* 8 - island boards
+* 8 - island cards
+* 120 - event cards
+* 60 - plantation hex tiles
+* 120 - goods cards
+* 6 - player sheets
+* 12 - piers, town, market, mill, workshop, fortess hex features
+* 24 - player flags
+* 18 - army tokens
+* 24 - favor/supply tokens
+* 6 - Ready coins
 
 #Goods Cards
-*wheat/flour
-*indigo/dye
-*cane/sugar
-*tobacco/cigar
-*sheep/wool
+* wheat/flour
+* indigo/dye
+* cane/sugar
+* tobacco/cigar
+* sheep/wool
 
 #Commissioned Goods 
-*books - require paper/dye
-*cakes - require flour/sugar
-*garments - wool/dye
-*rum - 4 cane
+* books - require paper/dye
+* cakes - require flour/sugar
+* garments - wool/dye
+* rum - 4 cane
 
 #Island boards
 Each board is numbered and has 3 fertilities that allow you to grow certain level 1 goods.
@@ -77,9 +77,9 @@ Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is p
 Passage of time is the phase where ocean trade is performed, crops are grown and event cards are queued up according to progress of the settlement.
 
 Ocean trade: This is performed in 3 parts.
-1 - Move supplies from ocean to pier
-2 - Optionally convert favor to suplies in ocean
-3 - Convert goods to favor in king's court, according to demand per good.
+1. Move supplies from ocean to pier
+2. Optionally convert favor to suplies in ocean
+3. Convert goods to favor in king's court, according to demand per good.
 
 Crop Growth: You may place any distribution of goods on your pier that you have plantations for. 
 
