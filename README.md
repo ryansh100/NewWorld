@@ -1,7 +1,7 @@
 # NewWorld
 This is the base game for the Governor Board Game system.
 
-Islands have been discovered in a brave new world. Tales of wealth and fertility have spread across Europe. The nobility is in a race to carve out control over this exciting land. 
+Islands have been discovered in a brave new world. Tales of wealth and fertility have spread across Europe. The nobility is in a race to carve out control over this exciting land.
 
 Longing for adventure and a better life, you have gained favor with your king's court and been given a commission to govern a small settlement in the New World.
 
@@ -30,7 +30,7 @@ Provide a well paced building game with low impact events but difficult choices 
 * tobacco/cigar
 * sheep/wool
 
-#Commissioned Goods 
+#Commissioned Goods
 * books - require paper/dye
 * cakes - require flour/sugar
 * garments - wool/dye
@@ -45,7 +45,7 @@ Complete 12 commissioned goods.
 #Setup
 
 #Negotiation
-Players are encouraged to negotiate when conflicts arise in simultaneous activities or actions. 
+Players are encouraged to negotiate when conflicts arise in simultaneous activities or actions.
 
 #Settlement
 A settlement is any contiguous collection of settlement features controlled by a player.
@@ -68,11 +68,11 @@ There are 3 phases to every round: Passage of time, Action & Resolution.
 - Resolution: Any conflicts from actions are resolved, deferred events are resolved and queued events are played in sequence.
 
 #Round 0
-Round 0 is a special round where players establish their settlements. All players may stake a claim at the same time, but must adhere to the following rule: 
+Round 0 is a special round where players establish their settlements. All players may stake a claim at the same time, but must adhere to the following rule:
 
 Two players cannot settle within 4 hex positions of each other.
 
-Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is possible. the person sacrificing the most favor would get first choice. Losing parties would not lose favor. 
+Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is possible. the person sacrificing the most favor would get first choice. Losing parties would not lose favor.
 
 #Passage of Time Phase
 Passage of time is the phase where ocean trade is performed, crops are grown and event cards are queued up according to progress of the settlement.
@@ -83,7 +83,7 @@ Ocean trade: This is performed in 3 parts.
 2. Optionally convert favor to suplies in ocean
 3. Convert goods to favor in king's court, according to demand per good.
 
-Crop Growth: You may place any distribution of goods on your pier that you have plantations for. 
+Crop Growth: You may place any distribution of goods on your pier that you have plantations for.
 
 Queue Events: Draw an event card for every feature in your settlement. 3 is the minimum anount of cards you may draw.
 
@@ -98,9 +98,9 @@ Actions available depend on your settlement progress.
 ##Establish Plantation
 Requires Town
 
-You may place a plantation hex tile adjacent to any settlement feature that youown. 
+You may place a plantation hex tile adjacent to any settlement feature that youown.
 
-Plantations produce any level 1 good that matches your island's fertility. 
+Plantations produce any level 1 good that matches your island's fertility.
 
 ##Build Feature
 
@@ -134,25 +134,23 @@ Rules follow pattern of deferred, with the exception that every player is affect
 Rules follow same pattern as deferred with the exception that card is kept face down by player that drew it. Card is resolved when round number is met and affects only the drawing player if comditions are met.
 
 #Terms
-Settlement
-Settlement Feature
-Settlement Progress
-Ocean trade
-Court
-Ocean
-Pier
-Player Card
-Favor
-Supplies
-Wheat
-Wool
-Sheep
-Indigo
-Dye
-Action
-Event
-Passage of Time
-Resolution
-Conflict
-
-
+* Action
+* Conflict
+* Court
+* Dye
+* Event
+* Favor
+* [Flour](Goods/Milled/Flour)
+* Indigo
+* Ocean
+* Ocean trade
+* Passage of Time
+* Pier
+* Resolution
+* Settlement
+* [Settlement Feature](SettlementFeature)
+* Settlement Progress
+* Sheep
+* Supplies
+* [Wheat](Goods/Basic/Wheat)
+* Wool
