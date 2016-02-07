@@ -1,4 +1,5 @@
-# NewWorld
+# New World
+
 This is the base game for the Governor Board Game system.
 
 Islands have been discovered in a brave new world. Tales of wealth and fertility have spread across Europe. The nobility is in a race to carve out control over this exciting land.
@@ -28,24 +29,16 @@ Provide a well paced building game with low impact events but difficult choices 
 * indigo/dye
 * cane/sugar
 * tobacco/cigar
-* sheep/wool
+* wool/fabric
 
 #Commissioned Goods
 * books - require paper/dye
 * cakes - require flour/sugar
-* garments - wool/dye
+* garments - fabric/dye
 * rum - 4 cane
 
 #Island boards
 Each board is numbered and has 3 fertilities that allow you to grow certain level 1 goods.
-
-#Winning
-Complete 12 commissioned goods.
-
-#Setup
-
-#Negotiation
-Players are encouraged to negotiate when conflicts arise in simultaneous activities or actions.
 
 #Settlement
 A settlement is any contiguous collection of settlement features controlled by a player.
@@ -59,6 +52,17 @@ A Settlement Feature is a hex that must be contiguous to another feature of the 
 4. Market
 5. Workshop
 6. Fortress
+
+#Winning
+Complete 8 commissioned goods.
+
+#Setup
+
+1. Shuffle the island deck and draw a card for every player. Take the corresponding islands and arrange them in any manner.
+2. Shuffle the event deck and commissioned goods deck together.
+3. Sort basic goods/milled goods card into draw piles.
+4. Distribute 5 favor tokens, a town settlement feature, a player mat, corresponding color army tokens and corresponding color of piers to every player.
+5. Every player should place their 5 favor in the King's court area of their player mat to start the game.
 
 #Round
 There are 3 phases to every round: Passage of time, Action & Resolution.
@@ -75,44 +79,94 @@ Two players cannot settle within 4 hex positions of each other.
 Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is possible. the person sacrificing the most favor would get first choice. Losing parties would not lose favor.
 
 #Passage of Time Phase
-Passage of time is the phase where ocean trade is performed, crops are grown and event cards are queued up according to progress of the settlement.
+Passage of time is the phase where the following occurs:
 
-Ocean trade: This is performed in 3 parts.
+1. Ocean trade
+2. Crops growth
+3. Events queued
 
-1. Move supplies from ocean to pier
-2. Optionally convert favor to suplies in ocean
+##Ocean trade
+
+Ocean trade is performed in 3 parts.
+
+1. Move supplies from ocean area to pier area of the player mat.
+2. Optionally convert favor to supplies. These are placed in the ocean area of player mat.
 3. Convert goods to favor in king's court, according to demand per good.
 
-Crop Growth: You may place any distribution of goods on your pier that you have plantations for.
+##Crop Growth
 
-Queue Events: Draw an event card for every feature in your settlement. 3 is the minimum anount of cards you may draw.
+You may place a basic good on your pier for every plantations that has been settled. You may only grow goods that match the island's fertility. You may produce multiple kinds of basic goods.
 
+##Events Queued
+
+You must draw an event card face-down for every feature in your settlement. 3 is the minimum amount of cards you must draw.
 
 #Actions Phase
-The Actions phase is a timed phase. Start the 5 minute timer when there are no more passage of time items and players are ready.
+The Actions phase is a timed phase. Start the 5 minute timer when the passage of time phase is finished and players are ready.
 
-Actions are performed as follows: discard a queued event card face down, then you may perform an action. Every action must be unique per round.
+Actions are performed as follows: Discard a queued event card face down, then you may perform an action. Every action must be unique per round.
 
 Actions available depend on your settlement progress.
 
 ##Establish Plantation
-Requires Town
+*Requires Town Settlement Feature*
 
-You may place a plantation hex tile adjacent to any settlement feature that youown.
+You may place a plantation hex tile adjacent to any settlement feature that you own.
 
 Plantations produce any level 1 good that matches your island's fertility.
 
+There is no cost to establish a plantation.
+
 ##Build Feature
+*No Settlement Feature Required*
+
+You may place any settlement feature adjacent to another settlement feature that you own.
+
+The cost of a settlement feature is 8 Supplies.
 
 ##Load Goods
+*Requires Pier Settlement Feature*
+
+You may move any number or combination of goods on your pier area to the ocean area of your player mat.
 
 ##Clear Plantation
+*No Settlement Feature Required*
+
+You may move any number or combination of goods on your pier area to the ocean area of your player mat.
 
 ##Assemble Army
+*Requires Fortress Settlement Feature*
+
+You may place an army token in the nearest adjacent map hex. You may only place as many armies as you have available.
 
 ##Move Army
+*Requires Fortress Settlement Feature*
+
+You may move one army token up to 4 hexes on the map.
 
 ##Mill goods
+*Requires Mill Settlement Feature*
+
+You may convert any basic good in your pier area to a milled good at the cost of 2 basic goods to 1 milled good.
+
+##Trade goods
+*Requires Market Settlement Feature*
+
+You may negotiate a trade with one other player with a market settlement feature.
+
+*OR*
+
+You may trade goods at the following rates:
+
+| In Pier | In Supply |
+|-------- | --------- |
+| 3 Basic | 1 Basic |
+| 1 Milled | 1 Basic |
+| 6 Basic | 1 Milled |
+
+#Resolution Phase
+
+
 
 #Events
 Every event contains a type, title, description, condition and game affect. The game affects can be classified as modifier, reward and/or penalty.
@@ -133,7 +187,11 @@ Rules follow pattern of deferred, with the exception that every player is affect
 ##Private Deferred:
 Rules follow same pattern as deferred with the exception that card is kept face down by player that drew it. Card is resolved when round number is met and affects only the drawing player if comditions are met.
 
+#Negotiation
+Players are encouraged to negotiate when conflicts arise in simultaneous activities or actions.
+
 #Terms
+
 * Action
 * Conflict
 * Court
