@@ -1,3 +1,6 @@
+#Game Mission
+Build a well paced building game with moderate to heavy player interaction and varied scenario generation.
+
 # New World
 
 This is the base game for the Governor Board Game system.
@@ -8,9 +11,6 @@ Longing for adventure and a better life, you have gained favor with your king's 
 
 Be decisive, forge alliances, engage in intrigue, and weather adversity to grow your territory and gain favor with the king's court. The king will surely notice your efforts and knight you.
 
-#Game Mission
-Provide a well paced building game with low impact events but difficult choices on timing.
-
 #Components
 * 8 - island boards
 * 8 - island cards
@@ -18,33 +18,34 @@ Provide a well paced building game with low impact events but difficult choices 
 * 60 - plantation hex tiles
 * 120 - goods cards
 * 6 - player sheets
-* 12 - piers, town, market, mill, workshop, fortess hex features
+* 12 - piers, town, market, mill, workshop, fortess hex buildings
 * 24 - player flags
 * 18 - army tokens
 * 24 - favor/supply tokens
 * 6 - Ready coins
 
 #Goods Cards
-* wheat/flour
-* indigo/dye
-* cane/sugar
-* tobacco/cigar
-* wool/fabric
+
+| Basic | Milled |
+|-------|--------|
+| wheat | flour |
+| indigo | dye |
+| cane | sugar |
+| tobacco | cigar |
+| wool | fabric |
 
 #Commissioned Goods
-* books - require paper/dye
-* cakes - require flour/sugar
-* garments - fabric/dye
-* rum - 4 cane
+
+Commissioned Goods vary in requirements to complete.
 
 #Island boards
 Each board is numbered and has 3 fertilities that allow you to grow certain level 1 goods.
 
 #Settlement
-A settlement is any contiguous collection of settlement features controlled by a player.
+A settlement is any contiguous collection of settlement buildings controlled by a player.
 
-#Settlement Feature
-A Settlement Feature is a hex that must be contiguous to another feature of the same settlement. There are 6 types of settlement features:
+#Settlement Building
+A Settlement Building is a hex that must be contiguous to another building of the same settlement. There are 6 types of settlement buildings:
 
 1. Pier
 2. Town
@@ -52,6 +53,18 @@ A Settlement Feature is a hex that must be contiguous to another feature of the 
 4. Market
 5. Workshop
 6. Fortress
+
+*NOTE* Plantations do not count as a settlement building.
+
+#Player mat
+
+The player mat consists of 3 main areas:
+
+1. Pier
+2. Ocean
+3. King's Court
+
+Each area represents different stages of ocean trade which will be discussed later.
 
 #Winning
 Complete 8 commissioned goods.
@@ -61,14 +74,14 @@ Complete 8 commissioned goods.
 1. Shuffle the island deck and draw a card for every player. Take the corresponding islands and arrange them in any manner.
 2. Shuffle the event deck and commissioned goods deck together.
 3. Sort basic goods/milled goods card into draw piles.
-4. Distribute 5 favor tokens, a town settlement feature, a player mat, corresponding color army tokens and corresponding color of piers to every player.
-5. Every player should place their 5 favor in the King's court area of their player mat to start the game.
+4. Distribute 5 favor tokens, a town settlement building, a player mat, corresponding color army tokens and corresponding color of piers to every player.
+5. Every player should place their 5 favor tokens in the King's court area of their player mat to start the game.
 
 #Round
-There are 3 phases to every round: Passage of time, Action & Resolution.
+There are 3 phases to every round: *Passage of time*, *Action* & *Resolution*.
 
-- Passage of time: Ocean trade is advanced and event cards are drawn face-down.
-- Action: Player simultaneously perform actions for a set amount of time.
+- Passage of time: Ocean trade is performed, crops grown and event cards drawn face-down.
+- Action: Players simultaneously perform actions for a set amount of time.
 - Resolution: Any conflicts from actions are resolved, deferred events are resolved and queued events are played in sequence.
 
 #Round 0
@@ -82,7 +95,7 @@ Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is p
 Passage of time is the phase where the following occurs:
 
 1. Ocean trade
-2. Crops growth
+2. Crop growth
 3. Events queued
 
 ##Ocean trade
@@ -90,26 +103,30 @@ Passage of time is the phase where the following occurs:
 Ocean trade is performed in 3 parts.
 
 1. Move supplies from ocean area to pier area of the player mat.
-2. Optionally convert favor to supplies. These are placed in the ocean area of player mat.
-3. Convert goods to favor in king's court, according to demand per good.
+2. *Optionally*, convert favor to supplies. These are then placed in the ocean area of player mat.
+3. Convert goods in ocean to favor in king's court, according to favor per good. (Refer to rates or card)
 
 ##Crop Growth
 
-You may place a basic good on your pier for every plantations that has been settled. You may only grow goods that match the island's fertility. You may produce multiple kinds of basic goods.
+You may place a basic good on your pier for every plantations that has been settled. You may only grow goods that match the island's fertility. You may produce multiple different kinds of basic goods.
 
 ##Events Queued
 
-You must draw an event card face-down for every feature in your settlement. 3 is the minimum amount of cards you must draw.
+You must draw an event card face-down for every building in your settlement. 3 is the minimum amount of cards you must draw.
+
+> Example: If I have a pier, town, mill & market, I must draw 4 event cards
 
 #Actions Phase
 The Actions phase is a timed phase. Start the 5 minute timer when the passage of time phase is finished and players are ready.
 
 Actions are performed as follows: Discard a queued event card face down, then you may perform an action. Every action must be unique per round.
 
+> Example: If I have 3 actions queued, I may establish a plantation and build a building in my settlement; however, I may not establish another plantation this round.  I must keep my 3rd event card for resolution.
+
 Actions available depend on your settlement progress.
 
 ##Establish Plantation
-*Requires Town Settlement Feature*
+*Requires Town Settlement Building*
 
 You may place a plantation hex tile adjacent to any settlement feature that you own.
 
@@ -117,40 +134,42 @@ Plantations produce any level 1 good that matches your island's fertility.
 
 There is no cost to establish a plantation.
 
-##Build Feature
-*No Settlement Feature Required*
+##Build Building
+*No Settlement Building Required*
 
-You may place any settlement feature adjacent to another settlement feature that you own.
+You may place any settlement building adjacent to another settlement feature that you own.
 
-The cost of a settlement feature is 8 Supplies.
+*Sprawl Rule:* Your buildings must always be within 2 hex positions of your pier.
+
+The cost of a settlement building is 8 Supplies.
 
 ##Load Goods
-*Requires Pier Settlement Feature*
+*Requires Pier Settlement Building*
 
 You may move any number or combination of goods on your pier area to the ocean area of your player mat.
 
 ##Clear Plantation
-*No Settlement Feature Required*
+*No Settlement Building Required*
 
 You may move any number or combination of goods on your pier area to the ocean area of your player mat.
 
 ##Assemble Army
-*Requires Fortress Settlement Feature*
+*Requires Fortress Settlement Building*
 
 You may place an army token in the nearest adjacent map hex. You may only place as many armies as you have available.
 
 ##Move Army
-*Requires Fortress Settlement Feature*
+*Requires Fortress Settlement Building*
 
 You may move one army token up to 4 hexes on the map.
 
 ##Mill goods
-*Requires Mill Settlement Feature*
+*Requires Mill Settlement Building*
 
 You may convert any basic good in your pier area to a milled good at the cost of 2 basic goods to 1 milled good.
 
 ##Trade goods
-*Requires Market Settlement Feature*
+*Requires Market Settlement Building*
 
 You may negotiate a trade with one other player with a market settlement feature.
 
@@ -206,7 +225,7 @@ Players are encouraged to negotiate when conflicts arise in simultaneous activit
 * Pier
 * Resolution
 * Settlement
-* [Settlement Feature](SettlementFeature)
+* [Settlement Building](SettlementBuilding)
 * Settlement Progress
 * Sheep
 * Supplies
