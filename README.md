@@ -1,4 +1,4 @@
-#Game Mission
+# Game Mission
 Build a well paced building game with moderate to heavy player interaction and varied scenario generation.
 
 # New World
@@ -11,7 +11,7 @@ Longing for adventure and a better life, you have gained favor with your king's 
 
 Be decisive, forge alliances, engage in intrigue, and weather adversity to grow your territory and gain favor with the king's court. The king will surely notice your efforts and knight you.
 
-#Components
+# Components
 * 8 - island boards
 * 8 - island cards
 * 120 - event cards
@@ -24,7 +24,7 @@ Be decisive, forge alliances, engage in intrigue, and weather adversity to grow 
 * 24 - favor/supply tokens
 * 6 - Ready coins
 
-#Goods Cards
+# Goods Cards
 
 | Basic | Milled |
 |-------|--------|
@@ -34,17 +34,17 @@ Be decisive, forge alliances, engage in intrigue, and weather adversity to grow 
 | tobacco | cigar |
 | wool | fabric |
 
-#Commissioned Goods
+# Commissioned Goods
 
 Commissioned Goods vary in requirements to complete.
 
-#Island boards
+# Island boards
 Each board is numbered and has 3 fertilities that allow you to grow certain level 1 goods.
 
-#Settlement
+# Settlement
 A settlement is any contiguous collection of settlement buildings controlled by a player.
 
-#Settlement Building
+# Settlement Building
 A Settlement Building is a hex that must be contiguous to another building of the same settlement. There are 6 types of settlement buildings:
 
 1. Pier
@@ -56,7 +56,7 @@ A Settlement Building is a hex that must be contiguous to another building of th
 
 *NOTE* Plantations do not count as a settlement building.
 
-#Player mat
+# Player mat
 
 The player mat consists of 3 main areas:
 
@@ -66,10 +66,10 @@ The player mat consists of 3 main areas:
 
 Each area represents different stages of ocean trade which will be discussed later.
 
-#Winning
+# Winning
 Complete 8 commissioned goods.
 
-#Setup
+# Setup
 
 1. Shuffle the island deck and draw a card for every player. Take the corresponding islands and arrange them in any manner.
 2. Shuffle the event deck and commissioned goods deck together.
@@ -77,28 +77,28 @@ Complete 8 commissioned goods.
 4. Distribute 5 favor tokens, a town settlement building, a player mat, corresponding color army tokens and corresponding color of piers to every player.
 5. Every player should place their 5 favor tokens in the King's court area of their player mat to start the game.
 
-#Round
+# Round
 There are 3 phases to every round: *Passage of time*, *Action* & *Resolution*.
 
 - Passage of time: Ocean trade is performed, crops grown and event cards drawn face-down.
 - Action: Players simultaneously perform actions for a set amount of time.
 - Resolution: Any conflicts from actions are resolved, deferred events are resolved and queued events are played in sequence.
 
-#Round 0
+# Round 0
 Round 0 is a special round where players establish their settlements. All players may stake a claim at the same time, but must adhere to the following rule:
 
 Two players cannot settle within 4 hex positions of each other.
 
 Resolve conflict in Round 0 by sacrificing favor, a negative value of favor is possible. the person sacrificing the most favor would get first choice. Losing parties would not lose favor.
 
-#Passage of Time Phase
+# Passage of Time Phase
 Passage of time is the phase where the following occurs:
 
 1. Ocean trade
 2. Crop growth
 3. Events queued
 
-##Ocean trade
+## Ocean trade
 
 Ocean trade is performed in 3 parts.
 
@@ -106,17 +106,17 @@ Ocean trade is performed in 3 parts.
 2. *Optionally*, convert favor to supplies. These are then placed in the ocean area of player mat.
 3. Convert goods in ocean to favor in king's court, according to favor per good. (Refer to rates or card)
 
-##Crop Growth
+## Crop Growth
 
 You may place a basic good on your pier for every plantations that has been settled. You may only grow goods that match the island's fertility. You may produce multiple different kinds of basic goods.
 
-##Events Queued
+## Events Queued
 
 You must draw an event card face-down for every building in your settlement. 3 is the minimum amount of cards you must draw.
 
 > Example: If I have a pier, town, mill & market, I must draw 4 event cards
 
-#Actions Phase
+# Actions Phase
 The Actions phase is a timed phase. Start the 5 minute timer when the passage of time phase is finished and players are ready.
 
 Actions are performed as follows: Discard a queued event card face down, then you may perform an action. Every action must be unique per round.
@@ -125,7 +125,7 @@ Actions are performed as follows: Discard a queued event card face down, then yo
 
 Actions available depend on your settlement progress.
 
-##Establish Plantation
+## Establish Plantation
 *Requires Town Settlement Building*
 
 You may place a plantation hex tile adjacent to any settlement feature that you own.
@@ -134,7 +134,7 @@ Plantations produce any level 1 good that matches your island's fertility.
 
 There is no cost to establish a plantation.
 
-##Build Building
+## Build Building
 *No Settlement Building Required*
 
 You may place any settlement building adjacent to another settlement feature that you own.
@@ -143,32 +143,32 @@ You may place any settlement building adjacent to another settlement feature tha
 
 The cost of a settlement building is 8 Supplies.
 
-##Load Goods
+## Load Goods
 *Requires Pier Settlement Building*
 
 You may move any number or combination of goods on your pier area to the ocean area of your player mat.
 
-##Clear Plantation
+## Clear Plantation
 *No Settlement Building Required*
 
 You may move any number or combination of goods on your pier area to the ocean area of your player mat.
 
-##Assemble Army
+## Assemble Army
 *Requires Fortress Settlement Building*
 
 You may place an army token in the nearest adjacent map hex. You may only place as many armies as you have available.
 
-##Move Army
+## Move Army
 *Requires Fortress Settlement Building*
 
 You may move one army token up to 4 hexes on the map.
 
-##Mill goods
+## Mill goods
 *Requires Mill Settlement Building*
 
 You may convert any basic good in your pier area to a milled good at the cost of 2 basic goods to 1 milled good.
 
-##Trade goods
+## Trade goods
 *Requires Market Settlement Building*
 
 You may negotiate a trade with one other player with a market settlement feature.
@@ -183,33 +183,33 @@ You may trade goods at the following rates:
 | 1 Milled | 1 Basic |
 | 6 Basic | 1 Milled |
 
-#Resolution Phase
+# Resolution Phase
 
 
 
-#Events
+# Events
 Every event contains a type, title, description, condition and game affect. The game affects can be classified as modifier, reward and/or penalty.
 
-##Immediate:
+## Immediate:
 Player should immediately present and perform affect if condition is met. the card is then placed in discard pile face down.
 
-##Defered:
+## Defered:
 Deferred events are specific cards that do not have an immediate modifier, penalty or reward. They should be revealed to all players and placed face up near the discard.
 
 Duration can be indefinite or specified in rounds. If deferred for multiple rounds, place a favor token on card every round during resolution.
 
 When round number has been met, every player is affected if they meet the condition specified.
 
-##Ongoing Deferred:
+## Ongoing Deferred:
 Rules follow pattern of deferred, with the exception that every player is affected by event every round until round number is met.
 
-##Private Deferred:
+## Private Deferred:
 Rules follow same pattern as deferred with the exception that card is kept face down by player that drew it. Card is resolved when round number is met and affects only the drawing player if comditions are met.
 
-#Negotiation
+# Negotiation
 Players are encouraged to negotiate when conflicts arise in simultaneous activities or actions.
 
-#Terms
+# Terms
 
 * Action
 * Conflict
